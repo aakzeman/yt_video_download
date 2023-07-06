@@ -18,8 +18,8 @@ def download_playlist(url, target_directory):
         ydl.download([url])
 
 # Define the URL of the playlist and the target directory
-playlist_url = 'https://www.youtube.com/playlist?list=PLRqH2kf18nWgrdMgrFIKn_YuBZmkOnUpR'
-target_directory = 'D:\youtube_download'
+playlist_url = 'PLAYLIST URL'
+target_directory = 'LOCAL DIRECTORY'
 
 # Call the function
 download_playlist(playlist_url, target_directory)
